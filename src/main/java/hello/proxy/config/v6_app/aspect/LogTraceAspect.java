@@ -27,7 +27,8 @@ public class LogTraceAspect {
         TraceStatus status = null;
     /*
     * ProceedingJoinPoint joinPoint
-    * MethodInvocation invocation과 유사한 기능. 내부에 실제 호출 대상, 전달 인자, 그리고 어떤 객체와 어떤 메서드가 호출되었는지 정보가 담겨있따.
+    * MethodInvocation invocation과 유사한 기능. 내부에 실제 호출 대상,
+    *  전달 인자, 그리고 어떤 객체와 어떤 메서드가 호출되었는지 정보가 담겨있따.
     *
     * */
         try {
