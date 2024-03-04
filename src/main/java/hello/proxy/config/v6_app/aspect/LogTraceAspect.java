@@ -37,6 +37,7 @@ public class LogTraceAspect {
             status = logTrace.begin(message);
 
             // 로직 호출
+            // 록
             // joinPoint.proceed(); : 실제 호출 대상('target')을 호출
             Object result = joinPoint.proceed();
 
